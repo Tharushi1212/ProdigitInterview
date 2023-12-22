@@ -1,0 +1,232 @@
+/* All the CSS rules go here */
+
+body {
+  /* width: 1440px; */
+  font-family: Poppins;
+  height: 684px;
+  background-color: palegoldenrod;
+}
+
+.top-bar-wrapper {
+  height: 34px;
+  background: #4c367e;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+text.icon-regular-text {
+  padding-left: 79px;
+}
+
+img.image-icon {
+  padding-left: 118px;
+  padding-top: 4px;
+}
+
+.icon-bold-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 49px;
+}
+
+.logo-n-nav-bar-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar {
+  padding-left: 134px;
+  padding-top: 52px;
+}
+
+.nav-bar ul {
+  list-style: none; /* Remove default list styling */
+}
+
+.nav-bar li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 72px; /* Adjust spacing between list items if needed */
+}
+
+li {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nav-bar a.active {
+  color: #17a43b;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.home-screen-top-image-wrapper {
+  background-image: url('../images/Rectangle\ 18.jpg'); /* Replace with the actual path to your image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center; /* Center the background image */
+  height: 684px;
+}
+
+.text-wrapper-home-screen {
+  padding-top: 147px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 97px;
+}
+
+text.regular-text-home {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+text.bold-text-home {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.line-image {
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+.double-color-rectangle {
+  margin-top: 43px;
+  margin-left: 100px;
+  border-radius: 50px;
+  background: #fff;
+  width: 299px;
+}
+
+text.double-color-rectangle-text {
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.home-screen-three-points {
+  margin-left: 192px;
+  margin-top: 109px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 98px;
+  justify-content: space-around;
+}
+
+.mouse-point text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.certificate-point text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.branch-point text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.mouse-point img {
+  width: 62px;
+  height: 67px;
+}
+
+.mouse-point {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  column-gap: 13px;
+}
+
+.branch-point img {
+  width: 62px;
+  height: 67px;
+}
+
+.certificate-point img {
+  width: 62px;
+  height: 67px;
+}
+
+.home-screen-three-points {
+  margin-left: 192px;
+  margin-top: 109px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ecliplse-up-arrow {
+  background-image: url('../images/Ellipse\ 2.png'); /* Replace with the actual path to your image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center; /* Center the background image */
+  width: 48px;
+  height: 48px;
+  margin-right: 28px;
+  position: relative;
+}
+
+.home-screen-three-points-text-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.branch-point {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 25px;
+}
+
+.certificate-point {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 13px;
+}
