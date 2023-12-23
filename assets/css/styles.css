@@ -230,3 +230,177 @@ text.double-color-rectangle-text {
   justify-content: space-between;
   column-gap: 13px;
 }
+
+.text-section-about-us text {
+  color: #4c367e;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text-section-about-us {
+  margin-top: 48px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+span.services-text {
+  color: #17a43b;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p.bold-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+text.about-us-agency-text {
+  margin-top: 28px;
+}
+
+img.about.us.break.line {
+  width: 167px;
+  height: 5px;
+}
+
+.bout-us-div-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 90px;
+}
+
+.about-us-button {
+  width: 187px;
+  height: 53px;
+  border-radius: 40px;
+  background: #ff8b00;
+  margin-top: 85px;
+}
+
+text.button-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 139.9%;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  position: absolute;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 18px;
+  margin-right: 100px;
+}
+
+.image-wrapper-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-set {
+  margin-top: 55px;
+}
+
+.overseas {
+  background: linear-gradient(rgba(76, 54, 126, 0.6), rgba(76, 54, 126, 0.6)),
+    url('../images/2687446_9267\ 1.png');
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center; /* Center the background image */
+  height: 1027px;
+}
+
+.text-section-our-services {
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+text.overseas-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card-section {
+  margin-left: 100px;
+  margin-top: 48px;
+  margin-bottom: 138px;
+  margin-right: 100px;
+}
+
+img.card-img-top {
+  padding-top: 16px;
+  padding-left: 103px;
+  padding-right: 103px;
+}
+
+text.card-title {
+  color: #383838;
+  font-family: Inter;
+  font-size: 13.138px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 13px;
+}
+
+.card-title.wrapper {
+  margin-top: 13px;
+  margin-left: 69px;
+  margin-right: 69px;
+}
+
+p.card-text {
+  padding-top: 34px;
+  padding-left: 11px;
+  padding-right: 24px;
+  padding-bottom: 27px;
+  color: #383838;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 87px;
+}
