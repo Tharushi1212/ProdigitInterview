@@ -404,3 +404,117 @@ p.card-text {
   justify-content: space-between;
   row-gap: 87px;
 }
+
+.reasons-card-wrapper {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 33px;
+  column-gap: 24px;
+  justify-content: space-between;
+}
+.reason-card {
+  border-radius: 10px;
+  border: 1px solid #535353;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.reason-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 64px;
+  padding-left: 26px;
+}
+
+img.interviews {
+  padding-bottom: 47px;
+  padding-left: 56px;
+}
+
+.choose-us-bottom-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+text.choose-us-bottom-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.9%;
+}
+
+.number-count-wrapper {
+  background: linear-gradient(rgba(23, 164, 59, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../images/chat-people-background.png');
+  background-size: cover;
+  background-position: center;
+  height: 361px;
+}
+
+.number-count-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 23px;
+}
+
+.number-count-wrapper text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 139.9%;
+}
+
+.number-count-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number-count-images-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 319px;
+  margin-right: 314px;
+  margin-top: 59px;
+}
+
+text.number-count-number {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+text.number-count-text {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+img.policy {
+  width: 78px;
+  height: 73px;
+}
