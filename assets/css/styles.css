@@ -1,5 +1,17 @@
 /* All the CSS rules go here */
 
+:root {
+  --swiper-pagination-color: #b3ff00 !important;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: #ff8b00 !important;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+
 body {
   /* width: 1440px; */
   font-family: Poppins;
@@ -858,13 +870,6 @@ p.dummy-text {
   padding-top: 30px;
 }
 
-.Carousel-dot-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 68px;
-}
-
 .text-section-register-form {
   /* margin-left: 100px; */
   display: flex;
@@ -1047,4 +1052,16 @@ p.email-text {
   font-size: 16px;
   padding-top: 12px;
   padding-left: 29px;
+}
+
+.swiper-custom-slider-class.swiper-pagination-bullet-active {
+  background-color: #ff8b00; /* Set background color to transparent */
+  box-shadow: 0 0 0 1px #4c367ecc, 0 0 0 3px #ff8b00; /* Adjust the size and color of the shadow */
+  width: 8px; /* Adjust the width of the active dot */
+  height: 8px; /* Adjust the height of the active dot */
+  border-radius: 50%; /* Ensure the dot remains circular */
+}
+.name-contents.d-flex {
+  margin-top: 28px;
+  margin-bottom: 68px;
 }
